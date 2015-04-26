@@ -1,0 +1,6 @@
+//putting data in hbase into hive table. Pig to LOAD, hive to link
+CREATE EXTERNAL TABLE hbase_weather(key int, date string, temp string)
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' //just choosing a .hive storage handler instead of .pig
+WITH SERDEPROPERTIES ("hbase.columns.mapping" = ":key, info:date, info:temp") //key going to map to the first column key int, info date to date, etc.
+TBLPROPERTIES("hbase.table.name" = "weather"); 
+

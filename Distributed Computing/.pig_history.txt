@@ -1,0 +1,19 @@
+ls hdfs:/
+ls hdfs://
+ls hdfs:/
+ls hnname:/
+ls hdfs:/
+ls hnname:/
+ls hdfs:/
+book = load 'hdfs:/data/small/war_and_peace.txt'
+book = load 'hdfs:/data/small/war_and_peace.txt'USING PigStorage() AS lines(CHARARRAY);
+book = LOAD 'hdfs:/data/small/war_and_peace.txt'USING PigStorage() AS lines(CHARARRAY);
+book = LOAD 'hdfs:/data/small/war_and_peace.txt'USING PigStorage() AS (lines: CHARARRAY);
+dump book
+FOREACH book Generate FLATTEN(tokenize(lines)) as word; 
+FOREACH book GENERATE FLATTEN(TOKENIZE(lines)) as word; 
+FOREACH book GENERATE FLATTEN(TOKENIZE(lines)) as words; 
+clear
+words=FOREACH book GENERATE FLATTEN(TOKENIZE(lines)) as word; 
+words = FOREACH book GENERATE FLATTEN(TOKENIZE(lines)) as word; 
+dump words

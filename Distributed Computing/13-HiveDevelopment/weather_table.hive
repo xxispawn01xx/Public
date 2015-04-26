@@ -1,0 +1,13 @@
+CREATE EXTERNAL TABLE IF NOT EXISTS weather(wban INT, date STRING, time STRING, stationType STRING, skyCondition STRING, visibility INT,
+visibilityFLAG INT, weatherTYPE STRING, weatherTypeFlag STRING, dryBulbTempF INT, wetBulbTempC DOUBLE, stationPressure DECIMAL)
+COMMENT 'my weather table in hive! The Partition is like a virtual column. If the above doesnt exist...go to bottom'
+PARTITIONED BY (year INT, month STRING)
+ROW FORMAT DELIMITED
+	FIELDS TERMINATED BY ','
+	LINES TERMINATED BY '\n'
+LOCATION '/hive/data/weather/';
+
+LOAD DATA INPATH 'hdfs:/data/big/201203hourly.txt' INTO TABLE weather PARTITION(year=2012, month='03');
+LOAD DATA INPATH 'hdfs:/data/big/201204hourly.txt' INTO TABLE weather PARTITION(year=2012, month='04');
+
+

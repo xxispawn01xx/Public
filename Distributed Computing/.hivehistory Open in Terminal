@@ -1,0 +1,68 @@
+set -v
+SHOW TABLES;
+CREATE TABLE book(word STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ' '
+LINES TERMINATED BY '\n'
+;
+LOAD DATA INPATH 'hdfs:/data/small/war_and_peace.txt' INTO TABLE book;
+show tables;
+ describe book
+;
+describe book;
+CREATE table weather(wban INT, date STRING)
+ROW FORMAT DELIMITOR
+TERMINATED BY ','
+LOCATION 'hive/data/weather';
+CREATE table weather(wban INT, date STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LOCATION 'hive/data/weather';
+LOCATION '/hive/data/weather';
+CREATE table weather(wban INT, date STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+LOCATION '/hive/data/weather';
+LOAD DATA INPATH 'hdfs:/data/big/201202hourly.txt' INTO TABLE weather;
+LOAD DATA INPATH 'hdfs:/data/big/data/weather/201202monthly.txt' INTO TABLE weather;
+;
+LOAD DATA INPATH 'hdfs:/data/big/data/weather/201202monthly.txt' INTO TABLE weather;
+LOAD DATA INPATH 'h TABLE weather;
+LOAD DATA INPATH 'hdfs:/data/big/data/weather/201202monthly.txt' INTO TABLE weather;
+LOAD DATA INPATH 'hdfs:/data/big/201202hourly.txt' INTO TABLE weather;
+DROP TABLE weather;
+hive -f /home/zetsui/NuggetFiles/13-HiveDevelopment weather_table.hive
+select * weather where month='01';
+select * from weather where month='01';
+CREATE EXTERNAL TABLE weather_staging(wban INT, date STRING)
+ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY ','
+LOCATION '/hive/data/weather/staging';
+CREATE EXTERNAL TABLE weather_prod(wban INT, date STRING)
+PARTITIONED BY (month STRING)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY','
+LOCATION '/hive/data/weather/prod';
+LOAD DATA LOCAL INPATH '/home/zetsui/data/weather/201201hourly.txt' INTO TABLE weather_staging;
+LOAD DATA LOCAL INPATH '/home/zetsui/data/weather/201202hourly.txt' INTO TABLE weather_staging;
+LOAD DATA LOCAL INPATH '/home/zetsui/data/weather/201203hourly.txt' INTO TABLE weather_staging;
+CREATE VIEW precipitous_data
+AS
+SELECT * FROM weather WHERE hourlyPrecip IS NOT NULL AND hourlyPrecip > 0;
+SELECT * FROM weather WHERE stationpressure  IS NOT NULL AND hourlyPrecip > 0;
+;
+\\;
+quit;
+CREATE VIEW precipitous_data
+AS
+SELECT * from weather WHERE hourlyPrecip IS NOT NULL AND hourlyPrecip > 0;
+CREATE VIEW stationpressure
+AS
+SELECT * from weather WHERE stationpressure IS NOT NULL AND stationpressure > 0;
+select * from stationpressure
+;
+select * from weather_prod where date='20120101';
+CREATE INDEX date_index ON TABLE weather_prod(date) AS 'COMPACT' with DEFERRED BUILD;
+select * from weather_prod where date='20120101';
+CREATE INDEX date_index on TABLE weather_prod(date) AS 'COMPACT' with DEFERRED REBUILD;
+quit;
