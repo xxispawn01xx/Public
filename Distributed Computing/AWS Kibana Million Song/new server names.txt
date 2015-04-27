@@ -1,0 +1,4 @@
+Kibana million song data base
+
+
+ssh -i DS530.pem ec2-user@ec2-52-4-57-50.compute-1.amazonaws.com

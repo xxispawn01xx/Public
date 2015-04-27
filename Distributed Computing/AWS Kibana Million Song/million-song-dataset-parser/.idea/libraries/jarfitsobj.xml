@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="jarfitsobj">
+    <CLASSES>
+      <root url="file://C:/Program Files/HDF_Group/HDFView/2.11.0/lib" />
+      <root url="file://C:/Program Files/HDF_Group/HDFView/2.11.0/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://C:/Program Files/HDF_Group/HDFView/2.11.0/lib" />
+    </NATIVE>
+    <SOURCES />
+    <jarDirectory url="file://C:/Program Files/HDF_Group/HDFView/2.11.0/lib" recursive="false" />
+    <jarDirectory url="file://C:/Program Files/HDF_Group/HDFView/2.11.0/lib" recursive="false" />
+  </library>
+</component>
