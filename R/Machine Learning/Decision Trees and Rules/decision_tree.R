@@ -1,7 +1,7 @@
 ##
 ## Step 1: Gather Data
 ##
-credit <- read.csv("credit.csv")
+credit <- read.csv("C://Users//AliDesktop//Desktop//Magic Briefcase//Coursera//Other Repo//MLWRRscripts//5 - Decision Trees and Rules//credit.csv")
 
 ##
 ## Step 2: Prepare data
@@ -49,3 +49,6 @@ error_cost <- matrix(c(0,1,4,0), nrow=2)
 credit_cost <- C5.0(credit_train[-17], credit_train$default, costs = error_cost)
 credit_cost_pred <- predict(credit_cost, credit_test)
 CrossTable(credit_test$default, credit_cost_pred, prop.chisq = FALSE, prop.c = FALSE, prop.r = FALSE, dnn = c("Actual Default", "Predicted Default"))
+
+# > levels(credit_train$default)
+# [1] "no"  "yes"
