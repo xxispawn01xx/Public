@@ -1,6 +1,7 @@
 # Equivalent R models for Google API predictions can be found on my git, in many
 #cases they were finer tuned, albeit at the expense of a programmer and looking at the data
-# (time and money) compared to Google's Prediction Api
+# (time and money) compared to Google's Prediction Api. Would typically never put keys in a public
+# directory. But this is a sample and limited account, and I want to show the handshake/authorization
     
     # OAuth handshake and creating Google Prediction API method caller
 
