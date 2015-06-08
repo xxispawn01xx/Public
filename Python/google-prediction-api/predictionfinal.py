@@ -153,6 +153,7 @@ def parseUserCreatedList(id_kind_list):
 #printing all_models and their statuses  	
 id_kind_list = parseDictListDict(all_models);	
 parseUserCreatedList(id_kind_list);
+print("Models and training status")
 print("\n"+"\n"+"\n")
 		
 
