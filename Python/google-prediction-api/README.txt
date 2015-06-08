@@ -7,5 +7,4 @@ for exploratory analysis and serves as the infastructure to better train some of
 while retaining the speed and convenience of machine learning on Google's cloud.
 
 Things to work on in future releases: Putting results into PD arrays for analysis (ie splitting applying combining) as well
-as calling scikit-learn models onto the outputted models above to see if there are certain strengths within individial Google
-Prediction API models.
+as calling scikit-learn models onto the outputted models above to see if there are certain biases within a prediction output
