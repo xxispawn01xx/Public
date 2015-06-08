@@ -7,7 +7,7 @@
 
 import httplib2
     #settings is an imported py doc that contains client id = '' and client_secret=''fields
-    for OAuth
+    #for OAuth
 import settings
 
 client_id = settings.client_id
