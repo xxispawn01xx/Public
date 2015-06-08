@@ -114,7 +114,7 @@ class HostedModel(object):
         return service.hostedmodels().predict()
 
 
-    ##Callling all models  in projectID and predictions
+##Callling all models  in projectID and predictions
 all_models = TrainedModel("615292928655", "credit.csv").list()
 
 ####Print Model Names
@@ -128,7 +128,7 @@ def parseDictListDict(all_models):
     itemsList = all_models['items'];
 
     # running a loop pver all the items, one at a time
-    for item in itemsList:
+    for item in itemsList: #item here is index number
 
         # pick out id from dictionary
         idVar = item['id'];
@@ -138,7 +138,8 @@ def parseDictListDict(all_models):
 
         # filling id and kind into a 2d array
         id_kind_list.append([idVar, kindVar]);
-    return id_kind_list;
+    return id_kind_list; #need return statement because all of these operations are 
+    #happening in memory
 
 def parseUserCreatedList(id_kind_list):
 
@@ -148,20 +149,54 @@ def parseUserCreatedList(id_kind_list):
         #printing each index in 1d array
         print(item[0]+" "+item[1]+"\n");
 
-		
+
+#printing all_models and their statuses  	
 id_kind_list = parseDictListDict(all_models);	
 parseUserCreatedList(id_kind_list);
+print("\n"+"\n"+"\n")
 		
 
+###Now let's parse the prediction results
+def parseDictListDict(prediction_results):
+
+    pred_id_outputMulti=[];
+
+    # picking all the items list from the first dictionary
+    itemsList = prediction_results['outputMulti'];
+
+    # running a loop pver all the items, one at a time
+    for item in itemsList: #item here is index number
+
+        # pick out id from dictionary
+        labelVar = item['label'];
+
+        # pick out kind from dictionary
+        scoreVar = item['score'];
+
+        # filling id and kind into a 2d array
+        pred_id_outputMulti.append([labelVar, scoreVar]);
+    return pred_id_outputMulti; #need return statement because all of these operations are 
+    #happening in memory
+    
+def parseUserCreatedList(pred_id_outputMulti):
+#        print(pred_id_outputMulti)
+    # Getting out 1d array from 2d array
+    for item in pred_id_outputMulti:
+
+        #printing each index in 1d array
+        print(item[0]+" "+item[1]+"\n");
+    print("\n"+"\n"+"\n")
 ####Analysis
     #Note did not parse prediction dictionary output results in notebook like above, one can use
     #Spyder variable explorer to do cursory analysis before proceeding to tweek prediction
     # features for intended purposes, sorting, parsing results, boosting models, building ROC curves
     # etc
 
-
-prediction_credit = TrainedModel("615292928655", "credit.csv").predict(['unknown',12,'good','furniture/appliances',3059])
-#print(prediction_credit.values())
+model = "credit.csv"
+prediction_credit = TrainedModel("615292928655", model).predict(['unknown',12,'good','furniture/appliances',3059])
+print(model+" "+"prediction scores")
+id_kind_list = parseDictListDict(prediction_credit);	
+parseUserCreatedList(id_kind_list);
 
 #Does not do well with categorical variables and factor levels, using csvs with factors as strings 
 # ie 0-200DM, 200-400DM, >400DM, unknown Deutsche Marks in ones bank account
@@ -174,20 +209,22 @@ prediction_credit = TrainedModel("615292928655", "credit.csv").predict(['unknown
 #In fact the API method initially couldn't even find a classifier to use for the data and
 #reported an accuracy of 0. It didn't work as well as other decision tree classifiers.
 
-
-TrainedModel("615292928655", "concrete.csv")
-prediction_concrete = TrainedModel("615292928655", "concrete.csv").predict([296,0,0,192,0,0,1085,765,7,14.2])
-#print(prediction_concrete.values())
+model = "concrete.csv"
+prediction_concrete = TrainedModel("615292928655", model).predict([296,0,0,192,0,0,1085,765,7,14.2])
+print(model+" "+"prediction scores")
+id_kind_list = parseDictListDict(prediction_concrete);	
+parseUserCreatedList(id_kind_list);
 #Next I tried a concrete strength .csv that I had used an R ANN package on
 # Given it did not have the above factors that limited the previous model, it worked
 #much better, giving me an accuracy of .67 at determining the strength of cement
 # from its eight featues. Unlike the above model as well, there were many more relevant 
 # and numerical features that helped contribute to the accuracy of the model.
 
-
-TrainedModel("615292928655", "letterdata.csv")
-prediction_lettersdata = TrainedModel("615292928655", "letterdata.csv").predict([2,8,3,5])
-#print(prediction_lettersdata.values())
+model = "letterdata.csv"
+prediction_letterdata = TrainedModel("615292928655", model).predict([2,8,3,5])
+print(model+" "+"prediction scores")
+id_kind_list = parseDictListDict(prediction_letterdata);	
+parseUserCreatedList(id_kind_list);
 
 #Lastly I tried an SVM classifier for OCR of letter data from UCI's machine 
 # learning repository. After vectorizing each variaton or 'glyph' for a letter
