@@ -1,3 +1,5 @@
+# Click Thru Rate Logistic Classifier
+
 # Click through rate is an important metric for evaluating performance
 # in online advertising and marketing. The dataset  is from the world's leading
 # company specialized in cross device advertising.240 hours of click data
