@@ -1,0 +1,352 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -encoding
+2 -> UTF-8
+3 -> -target:jvm-1.7
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+16 items
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$1.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$2.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$3.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$4.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$5.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$6.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$main$1.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator1$1.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator2$1.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator3$1.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator4$1.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator5$1.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator6$1.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator7$1.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$.class
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR.class
+binary dependencies:
+9 items
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Users\AliDesktop\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Users\AliDesktop\.ivy2\cache\org.apache.hadoop\hadoop-common\jars\hadoop-common-2.2.0.jar
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\jars\spark-catalyst_2.11-1.4.0.jar
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-core_2.11\jars\spark-core_2.11-1.4.0.jar
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-mllib_2.11\jars\spark-mllib_2.11-1.4.0.jar
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-sql_2.11\jars\spark-sql_2.11-1.4.0.jar
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Users\AliDesktop\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> C:\Users\AliDesktop\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+16 items
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$anonfun$1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$anonfun$2
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$anonfun$3
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$anonfun$4
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$anonfun$5
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$anonfun$6
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$anonfun$main$1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$typecreator1$1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$typecreator2$1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$typecreator3$1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$typecreator4$1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$typecreator5$1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$typecreator6$1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com.inkenkun.x1.spark.examples.ml.HashingTrickLR$$typecreator7$1
+used names:
+200 items
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> !=
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> $
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> $m
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> $m$untyped
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> $typecreator1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> $typecreator2
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> $typecreator3
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> $typecreator4
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> $typecreator5
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> $typecreator6
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> $typecreator7
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> $u
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> &&
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> +
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> <init>
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> ==
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> ===
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> AnyRef
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Array
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> BinaryClassificationMetrics
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> ClassTag
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> ConfigFactory
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> CrossValidator
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Double
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> DoubleType
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Function1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> GzipCodec
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> HashingTF
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> HashingTrickLR
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> LogisticRegression
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Mirror
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Nil
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Nothing
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> ParamGridBuilder
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Pipeline
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Predef
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> RegressionEvaluator
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Row
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> SQLContext
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> SaveMode
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> SingleType
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Singleton
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> SparkContext
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> String
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> StringContext
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> ThisType
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Type
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> TypeCreator
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> TypeRef
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> TypeTag
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> U
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Unit
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Universe
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Vector
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> Vectors
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> _1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> _2
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> _root_
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> addGrid
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> agg
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> apache
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> apply
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> areaUnderROC
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> args
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> array
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> as
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> asInstanceOf
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> asModule
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> asType
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> auROC
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> augmentString
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> avg
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> bestHT
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> bestLR
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> bestModel
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> build
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> cast
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> classification
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> com
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> compress
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> config
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> crossval
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> cvModel
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> data
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> desc
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> evaluation
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> examples
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> f
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> feature
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> filter
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> fit
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> foreach
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> format
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> functions
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> get
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> getClass
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> getClassLoader
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> getMaxIter
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> getNumFeatures
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> getRegParam
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> getStages
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> groupBy
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> hadoop
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> hashingTF
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> hour
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> immutable
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> implicits
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> inkenkun
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> internal
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> io
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> isEmpty
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> isInstanceOf
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> label
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> lengthCompare
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> linalg
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> lit
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> load
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> lr
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> map
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> materializeClassTag
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> materializeTypeTag
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> maxIter
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> metrics
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> ml
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> mllib
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> model
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> moduleClass
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> ne
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> numFeatures
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> option
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> orderBy
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> org
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> p
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> p0
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> p1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> package
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> paramGrid
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> parent
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> pipeline
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> predictPrint
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> prefix
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> printTreeString
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> println
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> prob
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> prob0
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> prob1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> randomSplit
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> rawCsv
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> read
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> refArrayOps
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> reflect
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> regParam
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> reificationSupport
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> runtime
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> runtimeMirror
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> s
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> sc
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> scala
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> schema
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> scoreAndLabels
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> select
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> selectType
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> setEstimator
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> setEstimatorParamMaps
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> setEvaluator
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> setInputCol
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> setMaxIter
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> setNumFeatures
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> setNumFolds
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> setOutputCol
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> setRegParam
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> setStages
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> slice
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> spark
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> splits
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> sql
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> sqlContext
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> staticClass
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> staticModule
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> staticPackage
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> stop
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> take
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> test
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> tested
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> text
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> toTypeConstructor
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> train
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> transform
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> tuning
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> types
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> typesafe
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> udf
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> unapplySeq
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> unary_!
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> unchecked
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> universe
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> v
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> v0
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> v1
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> x1
+product stamps:
+16 items
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$1.class -> lastModified(1448304096895)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$2.class -> lastModified(1448304096901)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$3.class -> lastModified(1448304096906)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$4.class -> lastModified(1448304096911)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$5.class -> lastModified(1448304096917)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$6.class -> lastModified(1448304096924)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$anonfun$main$1.class -> lastModified(1448304096929)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator1$1.class -> lastModified(1448304096935)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator2$1.class -> lastModified(1448304096939)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator3$1.class -> lastModified(1448304096944)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator4$1.class -> lastModified(1448304096948)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator5$1.class -> lastModified(1448304096953)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator6$1.class -> lastModified(1448304096958)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$$typecreator7$1.class -> lastModified(1448304096962)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR$.class -> lastModified(1448304096881)
+C:\Stuff\Programming\Adtech\target\scala-2.11\classes\com\inkenkun\x1\spark\examples\ml\HashingTrickLR.class -> lastModified(1448304096807)
+source stamps:
+1 items
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> hash(3679d4e530f3db06c0c26d71fd62121d8bb28d36)
+binary stamps:
+9 items
+C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar -> lastModified(1436594125420)
+C:\Users\AliDesktop\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar -> lastModified(1399042454000)
+C:\Users\AliDesktop\.ivy2\cache\org.apache.hadoop\hadoop-common\jars\hadoop-common-2.2.0.jar -> lastModified(1381127427000)
+C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\jars\spark-catalyst_2.11-1.4.0.jar -> lastModified(1433965978000)
+C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-core_2.11\jars\spark-core_2.11-1.4.0.jar -> lastModified(1433966234000)
+C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-mllib_2.11\jars\spark-mllib_2.11-1.4.0.jar -> lastModified(1433966296000)
+C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-sql_2.11\jars\spark-sql_2.11-1.4.0.jar -> lastModified(1433966014000)
+C:\Users\AliDesktop\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar -> lastModified(1435004218000)
+C:\Users\AliDesktop\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar -> lastModified(1424912474000)
+class names:
+9 items
+C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar -> java.lang.Object
+C:\Users\AliDesktop\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar -> com.typesafe.config.ConfigFactory
+C:\Users\AliDesktop\.ivy2\cache\org.apache.hadoop\hadoop-common\jars\hadoop-common-2.2.0.jar -> org.apache.hadoop.io.compress.GzipCodec
+C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\jars\spark-catalyst_2.11-1.4.0.jar -> org.apache.spark.sql.types.DoubleType$
+C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-core_2.11\jars\spark-core_2.11-1.4.0.jar -> org.apache.spark.SparkContext
+C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-mllib_2.11\jars\spark-mllib_2.11-1.4.0.jar -> org.apache.spark.mllib.linalg.Vectors
+C:\Users\AliDesktop\.ivy2\cache\org.apache.spark\spark-sql_2.11\jars\spark-sql_2.11-1.4.0.jar -> org.apache.spark.sql.functions$
+C:\Users\AliDesktop\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar -> scala.Unit
+C:\Users\AliDesktop\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.6.jar -> scala.reflect.api.TypeCreator
+internal apis:
+1 items
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBJwuIuAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cHEs3Ox0AAZub3RpZnlzcQB+AAxqjwZLdAAEd2FpdHNxAH4ADCsz1bV0AA0kYXNJbnN0YW5jZU9mc3EAfgAMJOtCLnQABmVxdWFsc3NxAH4ADFQn2Fp0AAxhc0luc3RhbmNlT2ZzcQB+AAwVAUd9dAAMc3luY2hyb25pemVkc3EAfgAMKIffJXQADkhhc2hpbmdUcmlja0xSc3EAfgAMNnbfWnQADSRpc0luc3RhbmNlT2ZzcQB+AAypoMMTdAAEbWFpbnNxAH4ADE7GOjx0AAlub3RpZnlBbGxzcQB+AAzwU6rndAAMaXNJbnN0YW5jZU9mc3EAfgAM9TfklnQAAj09c3EAfgAMlY6Ov3QABWNsb25lc3EAfgAM4CEZKHQACHRvU3RyaW5nc3EAfgAMA7tcKnQAAiE9c3EAfgAMk7EnL3QACGdldENsYXNzc3EAfgAMnXpcL3QAAm5lc3EAfgAMx6gfeXQAAmVxc3EAfgAMq+/MK3QAAiMjc3EAfgAMMV6EXXQACGZpbmFsaXplc3EAfgAM5GWEvXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAMGNvbS5pbmtlbmt1bi54MS5zcGFyay5leGFtcGxlcy5tbC5IYXNoaW5nVHJpY2tMUnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFp4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFkAcHNxAH4AXnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGJzcQB+AFkAcHNxAH4AXnVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AH3VxAH4AUQAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Af3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGx4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFR0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHNbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGFzcQB+AHJ0AAVBcnJheXEAfgB4dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHJ0AAZTdHJpbmdzcQB+AHZzcQB+AHl1cQB+AHwAAAADc3EAfgB+dAAEamF2YXNxAH4AfnQABGxhbmdxAH4Ag3NxAH4AWQBwc3EAfgBedXEAfgA8AAAAAHNxAH4AWQBwc3EAfgBedXEAfgCXAAAAAnNxAH4AcnQABk9iamVjdHEAfgCbc3EAfgBydAADQW55cQB+AHh1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AB5jb20uaW5rZW5rdW4ueDEuc3BhcmsuZXhhbXBsZXNzcQB+AK50AAxjb20uaW5rZW5rdW5zcQB+AK50ABVjb20uaW5rZW5rdW4ueDEuc3BhcmtzcQB+AK50AA9jb20uaW5rZW5rdW4ueDFzcQB+AK50ACFjb20uaW5rZW5rdW4ueDEuc3BhcmsuZXhhbXBsZXMubWxzcQB+AK50AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVE1pqdWdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANUM6XFN0dWZmXFByb2dyYW1taW5nXEFkdGVjaFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUNnnU5TDz2wbAwm1x/WISHYuyjTY=
+external apis:
+0 items
+source infos:
+1 items
+C:\Stuff\Programming\Adtech\HashingTrickLR.scala -> 
+AAAAAAAAAAA=
+compilations:
+8 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTV6lMF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANUM6XFN0dWZmXFByb2dyYW1taW5nXEFkdGVjaFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTWGc/x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANUM6XFN0dWZmXFByb2dyYW1taW5nXEFkdGVjaFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTWHeYB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANUM6XFN0dWZmXFByb2dyYW1taW5nXEFkdGVjaFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTWJ1vZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANUM6XFN0dWZmXFByb2dyYW1taW5nXEFkdGVjaFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTWPI/l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANUM6XFN0dWZmXFByb2dyYW1taW5nXEFkdGVjaFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTWcy/R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANUM6XFN0dWZmXFByb2dyYW1taW5nXEFkdGVjaFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTWkQG11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANUM6XFN0dWZmXFByb2dyYW1taW5nXEFkdGVjaFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTWmp1Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANUM6XFN0dWZmXFByb2dyYW1taW5nXEFkdGVjaFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
