@@ -1,0 +1,27 @@
+Gross_Bookings ~ Months_Elapsed + Month -1
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:         Gross_Bookings   R-squared:                       0.959
+Model:                            OLS   Adj. R-squared:                  0.954
+Method:                 Least Squares   F-statistic:                     165.7
+Date:                Sun, 12 Mar 2017   Prob (F-statistic):           1.80e-10
+Time:                        19:41:51   Log-Likelihood:                -257.20
+No. Observations:                  16   AIC:                             518.4
+Df Residuals:                      14   BIC:                             519.9
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [95.0% Conf. Int.]
+----------------------------------------------------------------------------------
+Months_Elapsed  1.013e+06   1.11e+05      9.095      0.000      7.74e+05  1.25e+06
+Month           4.369e+05    1.5e+05      2.905      0.012      1.14e+05   7.6e+05
+==============================================================================
+Omnibus:                        1.562   Durbin-Watson:                   0.288
+Prob(Omnibus):                  0.458   Jarque-Bera (JB):                1.279
+Skew:                           0.601   Prob(JB):                        0.527
+Kurtosis:                       2.310   Cond. No.                         2.97
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
